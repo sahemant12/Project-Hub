@@ -36,10 +36,17 @@ const userSchema = new Schema({
     password: {
         type: String,
         required: [true, "password is required"],
+        minlength: 6
     },
     isEmailVerified: {
         type: Boolean,
         default: false,
+    },
+    emailVerificationToken: {
+        type: String,
+    },
+    emailVerificationExpiry: {
+        type: Date,
     },
     refreshToken: {
         type: String,
@@ -50,12 +57,6 @@ const userSchema = new Schema({
     forgotPasswordExpiry: {
         type: Date,
     },
-    emailVerificationToken: {
-        type: String,
-    },
-    emailVerificationExpiry: {
-        type: Date,
-    }
 
 }, {timestamps: true});
 
@@ -95,7 +96,7 @@ userSchema.methods.generateRefreshToken = function(){
     );
 };
 
-// generate temporary token(use for email verification)
+// generate temporary token(use for email verification/ forgot password verification)
 userSchema.methods.generateTemporaryToken = function(){
     const unHashedToken = crypto.randomBytes(32).toString("hex");
 
