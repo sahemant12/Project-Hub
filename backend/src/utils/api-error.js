@@ -4,9 +4,10 @@ class ApiError extends Error{
         statusCode,
         message = "something went wrong",
         errors = [],
-        stack = ""
+        stack = null
     ){
-        super(message); // call parent "Error" constructor with the message // If you extend a class, you MUST call super() first. 
+        super(message); // call parent "Error" constructor with the message // If you extend a class, you MUST call super() first.
+        this.name = "ApiError"; 
         this.statusCode = statusCode; // error status code
         this.message = message; // user-friendly message
         this.success = false; 
