@@ -26,7 +26,7 @@ const refreshAccessToken = asyncHandler(async (req, res) => {
 });
 
 const forgotPasswordRequest = asyncHandler(async (req, res) => {
-    
+    // forgotPasswordRequest
 });
 const resetForgottenPassword = asyncHandler(async (req, res) => {
     
