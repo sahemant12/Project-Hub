@@ -22,7 +22,7 @@ const logoutUser = asyncHandler(async (req, res) => {
 });
 
 const refreshAccessToken = asyncHandler(async (req, res) => {
-    
+    // refreshAccessToken
 });
 
 const forgotPasswordRequest = asyncHandler(async (req, res) => {
