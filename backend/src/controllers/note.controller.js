@@ -1,7 +1,7 @@
 import { asyncHandler } from "../utils/async-handler.js";
 
 const getNotes = asyncHandler(async (req, res) =>{
-
+    // getNotes
 });
 const getNoteById = asyncHandler(async (req, res) =>{
 
