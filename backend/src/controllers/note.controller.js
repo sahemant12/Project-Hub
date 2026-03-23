@@ -7,7 +7,7 @@ const getNoteById = asyncHandler(async (req, res) =>{
     // getNoteById
 });
 const createNote = asyncHandler(async (req, res) =>{
-
+    // createNote
 });
 const updateNote = asyncHandler(async (req, res) =>{
 
