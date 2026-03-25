@@ -2,7 +2,7 @@ import { asyncHandler } from "../utils/async-handler";
 
 
 const getProjects = asyncHandler(async (req, res) =>{
-
+ // getProjects
 });
 
 const getProjectById = asyncHandler(async (req, res) =>{
