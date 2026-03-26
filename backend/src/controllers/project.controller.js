@@ -10,7 +10,7 @@ const getProjectById = asyncHandler(async (req, res) =>{
 });
 
 const createProject = asyncHandler(async (req, res) =>{
-
+ // createProject
 });
 
 const updateProject = asyncHandler(async (req, res) =>{
