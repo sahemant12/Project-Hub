@@ -18,7 +18,7 @@ const updateProject = asyncHandler(async (req, res) =>{
 });
 
 const deleteProject = asyncHandler(async (req, res) =>{
-
+ // deleteProject
 });
 
 const addMemberToProject = asyncHandler(async (req, res) =>{
