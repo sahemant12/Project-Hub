@@ -34,7 +34,7 @@ const updateMemberRole = asyncHandler(async (req, res) =>{
 });
 
 const deleteMember = asyncHandler(async (req, res) =>{
-
+ // deleteMember
 });
 
 export {
