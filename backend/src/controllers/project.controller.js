@@ -30,7 +30,7 @@ const getProjectMembers = asyncHandler(async (req, res) =>{
 });
 
 const updateMemberRole = asyncHandler(async (req, res) =>{
-
+ // updateMemberRole
 });
 
 const deleteMember = asyncHandler(async (req, res) =>{
