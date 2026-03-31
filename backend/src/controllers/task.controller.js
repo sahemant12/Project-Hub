@@ -29,7 +29,7 @@ const updateSubTask = asyncHandler(async (req, res) =>{
 });
 
 const deleteSubTask = asyncHandler(async (req, res) =>{
-
+ // deleteSubTask
 });
 
 export {
