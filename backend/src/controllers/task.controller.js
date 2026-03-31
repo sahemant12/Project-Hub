@@ -17,7 +17,7 @@ const updateTask = asyncHandler(async (req, res) =>{
 });
 
 const deleteTask = asyncHandler(async (req, res) =>{
-
+ // deleteTask
 });
 
 const createSubTask = asyncHandler(async (req, res) =>{
