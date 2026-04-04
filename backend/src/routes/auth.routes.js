@@ -7,5 +7,5 @@ const router = Router();
 
 router.post("/register", userRegistrationValidator(), validate, registerUser);
 router.post("/log-in");
-
+router.post("/verify");
 export default router;
