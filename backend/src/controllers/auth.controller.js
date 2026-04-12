@@ -36,8 +36,6 @@ const changeCurrentPassword = asyncHandler(async (req, res) => {
     // changeCurrentPassword
 });
 const getCurrentUser = asyncHandler(async (req, res) => {
-    // getCurrentUser
-    // getCurrentUserInfo
 });
 
 
