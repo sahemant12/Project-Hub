@@ -16,8 +16,7 @@ const loginUser = asyncHandler(async (req, res) => {
 });
 
 const logoutUser = asyncHandler(async (req, res) => {
-    // logoutUser
-    // log out
+
 });
 
 const refreshAccessToken = asyncHandler(async (req, res) => {
