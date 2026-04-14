@@ -28,7 +28,6 @@ const forgotPasswordRequest = asyncHandler(async (req, res) => {
 const resetForgottenPassword = asyncHandler(async (req, res) => {re
 });
 const changeCurrentPassword = asyncHandler(async (req, res) => {
-    // changeCurrentPassword
 });
 const getCurrentUser = asyncHandler(async (req, res) => {
 });
