@@ -4,7 +4,6 @@ const registerUser = asyncHandler(async (req, res) => {
 });
 
 const verifyEmail = asyncHandler(async (req, res) => {
-    // verifyEmail
     
 });
 
