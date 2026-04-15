@@ -8,7 +8,6 @@ const verifyEmail = asyncHandler(async (req, res) => {
 });
 
 const resendEmailVerification = asyncHandler(async (req, res) => {
-    // resendEmailVerification
 });
 
 const loginUser = asyncHandler(async (req, res) => {
